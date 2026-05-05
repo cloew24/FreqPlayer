@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Frequency Shift</string>
+
+    <!-- Permission gate -->
+    <string name="gate_tagline">Stimme deine Musik auf 432, 528 oder eine beliebige Chakra-Frequenz ab.</string>
+    <string name="gate_button">Zugriff auf Musikbibliothek erlauben</string>
+
+    <!-- Header -->
+    <string name="header_label">FREQUENZ-SHIFT</string>
+    <string name="header_mode_vinyl">Vinyl-Modus · Pitch + Tempo</string>
+    <string name="header_mode_studio">Studio-Modus · nur Pitch</string>
+    <string name="header_toggle_mode_cd">Stimm-Modus umschalten</string>
+    <string name="header_about_cd">Über die Frequenzen</string>
+
+    <!-- Wheel -->
+    <string name="wheel_no_shift">keine Verschiebung</string>
+    <string name="wheel_cents_format">%+.1f Cent</string>
+
+    <!-- Library -->
+    <string name="library_count">%1$d Titel auf dem Gerät</string>
+    <string name="library_search_count">%1$d von %2$d Treffern</string>
+    <string name="library_search_empty">Keine Treffer für \"%1$s\"</string>
+    <string name="library_search_hint">Titel oder Interpret suchen</string>
+    <string name="library_search_clear_cd">Suche zurücksetzen</string>
+    <string name="library_empty">Keine Musik auf diesem Gerät gefunden.</string>
+
+    <!-- Now-playing bar transport -->
+    <string name="cd_previous">Zurück</string>
+    <string name="cd_next">Weiter</string>
+    <string name="cd_play">Abspielen</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_shuffle">Zufällig</string>
+    <string name="cd_repeat">Wiederholen</string>
+    <string name="cd_sleep_timer">Sleep-Timer</string>
+    <string name="cd_export">Gestimmte Datei exportieren</string>
+
+    <!-- Sleep timer -->
+    <string name="sleep_15min">15 Min.</string>
+    <string name="sleep_30min">30 Min.</string>
+    <string name="sleep_1hr">1 Std.</string>
+    <string name="sleep_90min">1,5 Std.</string>
+    <string name="sleep_title">SLEEP-TIMER</string>
+    <string name="sleep_active_subtitle">Musik wird ausgeblendet und pausiert</string>
+    <string name="sleep_idle_subtitle">Wie lange soll noch gespielt werden?</string>
+    <string name="sleep_until_fade">bis zum Ausblenden</string>
+    <string name="sleep_cancel">Timer abbrechen</string>
+    <string name="sleep_pausing_format">Pause in %1$d:%2$02d</string>
+
+    <!-- Picker sheet -->
+    <string name="picker_section_tuning">STIMM-REFERENZ</string>
+    <string name="picker_section_tuning_hint">Pitch-Shift zu einer alternativen A-Stimmung</string>
+    <string name="picker_section_solfeggio">SOLFEGGIO · CHAKRA-TÖNE</string>
+    <string name="picker_section_solfeggio_hint">Heilfrequenzen, den Chakren zugeordnet</string>
+    <string name="picker_standard_playback">Standard-Wiedergabe</string>
+    <string name="picker_pitch_format">Pitch-Verhältnis %1$.4f · %2$+.1f Cent</string>
+    <string name="picker_a_format">A→%1$.1f Hz</string>
+    <string name="picker_selected_cd">Ausgewählt</string>
+    <string name="picker_disclaimer">Die behaupteten heilenden Wirkungen dieser Frequenzen stammen aus alternativen Klangtherapie-Traditionen und sind wissenschaftlich nicht belegt. Diese App ist ein Stimm-Werkzeug, keine Behandlung.</string>
+
+    <!-- Export overlay -->
+    <string name="export_tuning_to">Stimmen auf %1$s</string>
+    <string name="export_done_title">Datei gespeichert</string>
+    <string name="export_done_path">Musik ▸ FreqShift</string>
+    <string name="export_failed_title">Export fehlgeschlagen</string>
+    <string name="export_done_button">Fertig</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Wiedergabe</string>
+    <string name="notif_channel_description">Aktuelle Wiedergabe-Benachrichtigung</string>
+    <string name="notif_ready">Bereit zum Abspielen</string>
+    <string name="cmd_next_tuning">Nächste Stimmung</string>
+    <string name="cmd_prev_tuning">Vorherige Stimmung</string>
+</resources>

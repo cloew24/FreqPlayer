@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher icon for API 24-25 (pre-adaptive-icon). On API 26+ the
+  mipmap-anydpi-v26/ic_launcher.xml takes precedence and the OS uses the
+  proper adaptive-icon foreground/background layers.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background" />
+    <item android:drawable="@drawable/ic_launcher_foreground" />
+</layer-list>
